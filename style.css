@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    font-family: Roboto;
+    margin-top: 20px;
+
+    background-color: #F6F8FA;
+    color: #333333;
+}
+
+header {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333333;
+        color: #F6F8FA;
+    }
+
+    hr {
+        border-color: #F6F8FA86;
+    }
+}
