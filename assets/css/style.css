@@ -10,6 +10,15 @@ body {
   color: #010409;
 }
 
+a {
+  color: #010409CE;
+  transition: all .2s ease;
+}
+
+a:hover {
+  color: #010409;
+}
+
 header {
   font-size: 54px;
   font-weight: 700;
@@ -27,6 +36,14 @@ hr {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #010409;
+    color: #F6F8FA;
+  }
+
+  a {
+    color: #F6F8FACE;
+  }
+
+  a:hover {
     color: #F6F8FA;
   }
 
