@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&amp;family=Roboto:wght@400;700&amp;display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  margin-top: 10rem;
+  padding-bottom: 6rem;
+  font-size: 18px;
+
+  background-color: #F6F8FA;
+  color: #010409;
+}
+
+header {
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.content {
+  max-width: 40rem;
+  margin: auto;
+}
+
+hr {
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #010409;
+    color: #F6F8FA;
+  }
+
+  hr {
+    color: #F6F8FA86;
+    border-color: #F6F8FA86;
+  }
+}
